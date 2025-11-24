@@ -32,4 +32,4 @@ Each directory contains one or more scripts from which the respective pipelines 
 - Isolation-by-resistance modeling with the R package ['radish' v0.0.2](https://github.com/nspope/radish) and associated inference of spatial rasters with the R packages ['terra' v1.6.47](https://rspatial.github.io/terra/), ['rasterdiv' v0.3.4](https://mattmar.github.io/rasterdiv/), ['whitebox' v2.2.0](https://whiteboxr.gishub.org/), ['ENMtools' v1.1.2](https://github.com/danlwarren/ENMTools) and ['ENMeval' v2.0.4](https://jamiemkass.github.io/ENMeval)
 
 ### Genetic diversity
-`./genetic_diversity` contains scripts to infer individual observed heterozygosities with [VCFtoosl v0.1.17](https://vcftools.github.io/index.html).
+`./genetic_diversity` contains scripts to infer individual observed heterozygosities with [VCFtools v0.1.17](https://vcftools.github.io/index.html).
