@@ -11,7 +11,7 @@ Each directory contains one or more scripts from which the respective pipelines 
 
 ### RAD genotyping
 `./RAD_genotyping` contains scripts for:
-- Alignment of trimmed *Microcebus* reads against the *Microcebus murinus* reference genome (Mmur 3.0; [Larsen et al. (2017), *BMC Biol.*](https://doi.org/10.1186/s12915-017-0439-6) with [BWA v0.7.17](https://github.com/lh3/bwa)) and subsequent filtering of BAM files with [SAMtools v1.11](http://www.htslib.org/)
+- Alignment of trimmed *Microcebus* reads against the *Microcebus murinus* reference genome (Mmur 3.0; [Larsen et al. (2017), *BMC Biol.*](https://doi.org/10.1186/s12915-017-0439-6)) with [BWA v0.7.17](https://github.com/lh3/bwa) and subsequent filtering of BAM files with [SAMtools v1.11](http://www.htslib.org/)
 - Genotype calling with [Stacks v2.53](https://catchenlab.life.illinois.edu/stacks/) using a reference-guided approach for *Microcebus* and a *de novo* approach for *Avahi* samples.
 - VCF filtering with [VCFtools v0.1.17](https://vcftools.github.io/index.html) and [GATK v3.8.1/v4.1.9.0](https://gatk.broadinstitute.org/hc/en-us)
 
