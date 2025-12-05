@@ -6,6 +6,7 @@ This repository holds scripts for the following analyses conducted for the publi
 - Population structure and gene flow
 - Drivers of population structure
 - Genetic diversity
+- Plots
 
 Each directory contains one or more scripts from which the respective pipelines are executed, labeled by the suffix "_sub". Input and output files can be found at [Dryad](https://doi.org/10.5061/dryad.4xgxd25nt). 
 
@@ -33,3 +34,6 @@ Each directory contains one or more scripts from which the respective pipelines 
 
 ### Genetic diversity
 `./genetic_diversity` contains scripts to infer individual observed heterozygosities with [VCFtools v0.1.17](https://vcftools.github.io/index.html).
+
+### Plots
+`./Plots` contains scripts for various plots that were generated in R for the publication.
