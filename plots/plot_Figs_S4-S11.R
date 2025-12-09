@@ -16,7 +16,7 @@ enm_lehilahytsara <- raster("ENM_lehilahytsara_Res150m.tif")
 enm_simmonsi <- raster("ENM_simmonsi_Res150m.tif")
 enm_laniger <- raster("ENM_laniger_Res150m.tif")
 forest <- raster("Forest1953_Res150m.tif")
-forest[is.na(forest)]<-0
+forest[is.na(forest)] <- 0
 forest <- ratify(forest)
 RAT <- levels(forest)[[1]]
 RAT$VALUE <- c("blank", "feature")

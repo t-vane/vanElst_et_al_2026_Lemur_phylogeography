@@ -36,4 +36,4 @@ Each directory contains one or more scripts from which the respective pipelines 
 `./genetic_diversity` contains scripts to infer individual observed heterozygosities with [VCFtools v0.1.17](https://vcftools.github.io/index.html).
 
 ### Plots
-`./Plots` contains scripts for various plots that were generated in R for the publication.
+`./plots` contains additional scripts for various plots that were generated in R for the publication.

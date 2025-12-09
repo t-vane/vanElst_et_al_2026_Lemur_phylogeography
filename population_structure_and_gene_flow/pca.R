@@ -1,4 +1,4 @@
-### Script to generate Figures S19 and S24 of van Elst et al. (2026), Molecular Ecology (https://doi.org/10.1111/mec.70195)
+### Script to conduct principal componant analyses and generate Figures S19 and S24 of van Elst et al. (2026), Molecular Ecology (https://doi.org/10.1111/mec.70195)
 
 library(SNPRelate)
 
@@ -8,7 +8,7 @@ prefixes <- c("jonahiMacarthurii", "jonahi", "lehilahytsara", "simmonsi", "lanig
 ## Loop over prefixes
 for(prefix in prefixes) {
     # Read biallelic SNPs from VCF file
-    vcf.fn <- paste0("populations.snps.filtered06.mac3.", prefix, ".vcf")
+    vcf.fn <- paste0("/scratch/projects/nib00015/northeastProject/microcebus/", species, "/stacks/vcfFiltering/populations.snps.filtered06.mac3.vcf")
     snpgdsVCF2GDS(vcf.fn, paste0(prefix,".gds"),  method="biallelic.only")
 
     # Load generate geno file
